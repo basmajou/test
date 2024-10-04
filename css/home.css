@@ -1,0 +1,244 @@
+body{
+    background-image: url("../img/6050931320709826435.jpg");
+/* background-color: #030a10; */
+font-family:Helvetica, Arial, sans-serif;
+}
+
+/* navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: auto;
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  background-image: url("../img/6050931320709826435.jpg");
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+  
+  /* end of navbar */
+  .start {
+/* 
+    box-shadow: 
+    inset 0px 11px 8px -10px  #030a10,
+    inset 0px -50px 8px -50px  #030a10; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: url("../img/backiee-111780-landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+  }
+  .start-c{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    
+  }
+  .name{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-align: center;
+  }
+  .name p{
+    color: white;
+    font-size: 30px;
+    margin: 5px 50px 5px 0px;
+    width: min-content;
+    height: min-content;
+    padding: 0px 5px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffffff;
+  }
+
+  .text2{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    word-spacing: 15px;
+    text-shadow: 0 0 5px #ffffff;
+  }
+  .but{
+padding: 0px auto;
+  }
+/* From Uiverse.io by Wendell47 */ 
+
+
+/* CSS */
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: transparent 0 0 0 3px,rgba(255, 255, 255, 0.521) 0 6px 20px;
+  box-sizing: border-box;
+  color: #23436e;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin:auto;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: max-content;
+height: max-content;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+.content{
+  padding-top: 50px;
+}
+.page{
+  display: flex;
+  flex-direction: row;
+ 
+justify-content: space-evenly;
+align-items: center;}
+.page-c{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: transparent 0 0 0 3px,rgba(255, 255, 255, 0.774) 0 6px 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width:500px;
+  height: 300px;
+  box-shadow: rgba(255, 255, 255, 0.37) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.543) 0px 50px 100px -20px,rgba(255, 255, 255, 0.511) 0px 30px 60px -30px;
+}
+.page-c p{
+ text-align: center;
+ font-size: larger;
+ font-weight: 500;
+}
+.title{
+  text-align: center;
+  
+  font-size: xx-large;
+  text-shadow: 0 0 3px #39393b, 0 0 5px #39393b;
+  color: #2c3167;
+}
+/* From Uiverse.io by Wendell47 */ 
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(37, 37, 37);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  width: 150px;
+  margin: auto;
+}
+
+.button:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(33, 0, 85);
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: rgb(222, 0, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 0, 75, 1) 0%,
+    rgb(85, 66, 154) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+}
+
+.button:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
+}
+
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.imgo{
+  width: 300px;
+  margin: 20px;
+}
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }    
+}
